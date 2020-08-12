@@ -23,7 +23,6 @@ html{
 .banner2{
     background-color: #CE3131;
     padding: .5rem .5rem;
-    /* text-align: end; */
     display: flex;
     justify-content: flex-end;
     border-bottom: .3rem solid rgb(177, 177, 177);
@@ -270,7 +269,7 @@ a:hover{
     }
 }
 
-@media(min-width: 1100px){
+@media(min-width: 1500px){
     main{
         width: 70%;
         margin: 15rem auto;
