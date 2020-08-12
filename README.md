@@ -2,15 +2,15 @@
 Create a functioning pokedex using only HTML, CSS and vanilla JavaScript.
 
 ##Features:
-###1. Pokemon display screen
+###Pokemon display screen
    * contains id and name
    * contains image of pokemon
    * contains details: type, height, weight
 
-###2. A scrollable list of pokemon (around 150)
+###A scrollable list of pokemon (around 150)
    * be able to select a pokemon from list and display on current pokemon screen
 
-###3. A search bar with magnifying glass button
+###A search bar with magnifying glass button
    * user able to type name of pokemon and results shows on current pokemon screen
 
 ##Goals:
