@@ -181,7 +181,7 @@ ul{
     width: 40rem;
     max-height: 65rem;
     overflow: scroll;
-    /* scrollbar-color: #CE3131; */
+    scrollbar-color: #CE3131 var(--main-color);
     background-color: rgb(206, 206, 206);
     border: 1rem solid #242222;
     margin: 0rem 0rem;
@@ -267,5 +267,16 @@ a:hover{
 @media(max-width: 414px){
     ul{
         width: 25rem;
+    }
+}
+
+@media(min-width: 1100px){
+    main{
+        width: 70%;
+        margin: 15rem auto;
+    }
+
+    .flex-container{
+        height: 30rem;
     }
 }
