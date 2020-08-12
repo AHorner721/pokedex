@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Ash's Pokedex</title>
+</head>
+<body>
+    <header>
+        <div class="banner1">
+            <h1>Pokedex</h1>
+        </div>
+        <div class="banner2">
+            <input id="search" type="text" placeholder="Search pokedex" maxlength="12">
+            <i class="material-icons white-icon" onclick="searchPokedex()">search</i>
+        </div>
+        <div class="blue-circle"></div>
+        <div class="white-circle"></div>
+        <div class="red-circle"></div>
+        <div class="yellow-circle"></div>
+        <div class="green-circle"></div>
+    </header>
+    <main>
+        <section class="current-poke"></section>
+        <section class="pokeList">
+            <ul></ul>
+        </section>
+    </main>
+    <footer>
+        <div class="flex-container">
+            <section class="aboutme">
+                <h5 class="white-text">About me</h5>
+                    <p></p>I am a Marine veteran and a Computer Science Major at Jackson State University.
+                        <br>
+                        I am currently learning web development with the goal of 
+                        being hired as a full stack developer.
+                    </p>
+                    <br>
+                    <p>I'm always learning new technologies and I am open to collaborate with fellow 
+                        developers.
+                        <br> 
+                        Feel free to connect with me on social media!
+                    </p>
+            </section>
+            <section class="connect">
+                <h5>Connect with me</h5>
+                    <ul class="socials">
+                        <li><a href="https://twitter.com/AshDev2020"
+                          target="_blank"><i class="fab fa-twitter fa-lg"></i><span class="space">Twitter</span></a></li>
+                        <li><a href="https://github.com/AHorner721"
+                          target="_blank"><i class="fab fa-github fa-lg"></i><span class="space">Github</span></a></li>
+                        <li><a href="https://www.linkedin.com/in/ashly-horner-85687856/"
+                          target="_blank"><i class="fab fa-linkedin fa-lg"></i><span class="space">Linkedin</span></a></li>
+                    </ul>
+            </section>
+        </div>
+    </footer>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+</html>

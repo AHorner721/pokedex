@@ -1,0 +1,271 @@
+:root{
+    --main-color: rgb(240, 240, 240);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.banner1{
+    text-align: center;
+    background-color: #242222;
+    color: var(--main-color);
+    padding: .5rem 0rem;
+}
+
+.banner2{
+    background-color: #CE3131;
+    padding: .5rem .5rem;
+    /* text-align: end; */
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: .3rem solid rgb(177, 177, 177);
+}
+
+i.white-icon{
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+.blue-circle{
+    width: 5rem;
+    height: 5rem;
+    background: linear-gradient(#98E6F0, #30447a);
+    border: .3rem solid var(--main-color);
+    border-radius: 50%;
+    position: absolute;
+    top: .5rem;
+    left: 1rem;
+    box-shadow: 3px 3px 1px rgba(0,0,0,.2);
+}
+
+.white-circle{
+    width: 1.5rem;
+    height: 1.5rem;
+    background: var(--main-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 1rem;
+    left: 1.6rem;
+}
+
+.red-circle, .yellow-circle, .green-circle{
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    position: absolute;
+    top: .8rem;
+}
+
+.red-circle{
+    background: linear-gradient(#f38787,#CE3131);
+    left: 8rem;
+}
+.yellow-circle{
+    background: linear-gradient(#f3f1d1,#e4d503);
+    left: 11rem;
+}
+.green-circle{
+    background: linear-gradient(#aadf91,#4ec019);
+    left: 14rem;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    max-width: 100rem;
+    margin: 4.5rem auto;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+}
+
+.current-poke{
+    max-width: 45rem;
+    min-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+
+.current-poke img{
+    height: 30rem;
+    border: 1rem inset rgb(196, 196, 196);
+    margin: 2.5rem 0rem;
+    background-color: #658fc5;
+}
+
+.pokeTitle{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    border-bottom: .3rem solid rgb(177, 177, 177);
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.pokeName{
+    font-size: 3rem;
+    font-weight: 500;
+    padding: .5rem 0rem;
+}
+
+.pokeName::before{
+    content: '';
+    background-color: #CE3131;
+    height: 5rem;
+    width: 3rem;
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+}
+.pokeName::after{
+    content: '';
+    background-color: #CE3131;
+    height: 5rem;
+    width: 3rem;
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+}
+
+.details, .poke-type{
+    font-size: 2.2rem;
+}
+
+.details{
+    margin-bottom: 1.5rem;
+}
+
+.description{
+    font-size: 2rem;
+    align-self: start;
+    border-top: .5rem solid gray;
+    margin-top: 2rem;
+    width: 100%;
+    text-transform: none;
+}
+
+li{
+    padding: 1.2rem 2rem;
+}
+
+li:nth-child(odd){
+    background-color: var(--main-color);
+}
+
+li:hover{
+    cursor: pointer;
+    background-color: #658fc5;
+    color: var(--main-color);
+}
+.selected{
+    background-color: #658fc5;
+    color: var(--main-color);
+}
+
+ul{
+    width: 40rem;
+    max-height: 65rem;
+    overflow: scroll;
+    /* scrollbar-color: #CE3131; */
+    background-color: rgb(206, 206, 206);
+    border: 1rem solid #242222;
+    margin: 0rem 0rem;
+}
+
+ul::-webkit-scrollbar{
+    background: var(--main-color);
+    width: 1.6rem;
+}
+
+ul::-webkit-scrollbar-corner{
+    background: gray;
+}
+
+ul::-webkit-scrollbar-thumb {
+    background: #CE3131;
+    
+}
+
+footer{
+    width: 100%;
+    padding: 2.5rem;
+    background-color: #242222;
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 73%;
+    max-width: 100rem;
+    margin: 0rem auto;
+}
+
+h5{
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.aboutme{
+    max-width: 45rem;
+    margin-bottom: 2rem;
+}
+
+.socials{
+    overflow: hidden;
+    border: none;
+    background-color: #242222;
+    color: var(--main-color);
+    align-content: flex-start;
+    list-style: none;
+}
+
+.socials li{
+    background-color: #242222;
+    padding-left: 0%;
+}
+
+.socials li:hover{
+    cursor: default;
+}
+
+.space{
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+a{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+a:visited{
+    color: var(--main-color);
+}
+
+a:hover{
+    color: #658fc5;
+}
+
+@media(max-width: 414px){
+    ul{
+        width: 25rem;
+    }
+}
