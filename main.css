@@ -148,6 +148,7 @@ main{
 
 .details{
     margin-bottom: 1.5rem;
+    text-transform: none;
 }
 
 .description{

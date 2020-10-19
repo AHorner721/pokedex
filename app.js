@@ -54,8 +54,8 @@ const displayPokemon = (data) => {
         <img src=${data.sprites.front_default}>
         <div><span class="poke-type">Type: ${data.types[0].type.name}</span></div>
         <div class="details">
-            <span>Height: ${data.height}</span>
-            <span>Weight: ${data.weight}</span>
+          <span>Height: ${data.height/10} (m)</span>
+          <span>Weight: ${data.weight/10} (kg)</span>
         </div>
     `;
     currentPokemon.innerHTML = html;
